@@ -5,7 +5,8 @@ import {
   MatInputModule,
   MatDatepickerModule,
   MatDividerModule,
-  MatButtonModule } from '@angular/material';
+  MatButtonModule,
+  MatNativeDateModule} from '@angular/material';
 
 @NgModule({
   declarations: [FormComponent],
@@ -13,9 +14,11 @@ import {
     CommonModule,
     MatInputModule,
     MatDatepickerModule,
+    MatNativeDateModule,
     MatDividerModule,
     MatButtonModule
   ],
-  exports: [FormComponent]
+  exports: [FormComponent],
+  providers: [MatDatepickerModule]
 })
 export class FormModule { }

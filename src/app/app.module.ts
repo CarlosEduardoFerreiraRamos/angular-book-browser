@@ -17,10 +17,7 @@ import { DataTableModule } from './components/data-table/data-table.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule,
-    DataTableModule,
-    FormModule,
-    FlexLayoutModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
