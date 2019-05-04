@@ -1,15 +1,1 @@
 @import './../styles.scss';
-
-
-// table 
-table {
-    width: 100%;
-}
-
-::ng-deep {
-    mat-paginator{
-        .mat-paginator-container {
-            justify-content: center;
-        }
-    }
-}

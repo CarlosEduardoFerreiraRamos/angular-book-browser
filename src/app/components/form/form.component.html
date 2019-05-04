@@ -1,0 +1,20 @@
+<form>
+    <mat-form-field>
+      <input matInput placeholder="Input">
+    </mat-form-field>
+    <button mat-button>text</button>
+  
+    <mat-divider></mat-divider>
+  
+    <mat-form-field>
+      <input matInput [matDatepicker]="pickerStart" placeholder="Choose a date">
+      <mat-datepicker-toggle matSuffix [for]="pickerStart"></mat-datepicker-toggle>
+      <mat-datepicker #pickerStart></mat-datepicker>
+    </mat-form-field>
+  
+    <mat-form-field>
+      <input matInput [matDatepicker]="pickerEnd" placeholder="Choose a date">
+      <mat-datepicker-toggle matSuffix [for]="pickerEnd"></mat-datepicker-toggle>
+      <mat-datepicker #pickerEnd></mat-datepicker>
+    </mat-form-field>
+  </form>
