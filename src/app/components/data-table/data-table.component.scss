@@ -4,6 +4,11 @@ table {
     width: 100%;
 }
 
+.app-data-table-container {
+    text-align:center;
+    text-align-last: center;
+}
+
 ::ng-deep {
     mat-paginator{
         .mat-paginator-container {
