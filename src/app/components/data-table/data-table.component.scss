@@ -6,7 +6,10 @@ table {
 
 .app-data-table-container {
     text-align:center;
-    text-align-last: center;
+
+    th {
+        text-align:center;
+    }
 }
 
 ::ng-deep {
