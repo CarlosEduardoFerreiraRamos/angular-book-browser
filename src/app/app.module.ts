@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { InterceptorServiceModule } from './services/interceptor-service/interceptor-service.module';
+import { MockBackEndModule } from './mock-back-end/mock-back-end.module';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    InterceptorServiceModule,
+    MockBackEndModule
   ],
   providers: [],
   bootstrap: [AppComponent]

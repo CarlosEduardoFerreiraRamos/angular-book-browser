@@ -5,4 +5,8 @@ import { HttpClient } from '@angular/common/http';
 export class BooksService {
 
   constructor(private _http: HttpClient) { }
+
+  get() {
+    return this._http.get('https://mock-service');
+  }
 }
