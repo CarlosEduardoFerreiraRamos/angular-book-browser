@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  apiHost: 'https://mock-service',
   apiKey: 'e9ymwcph2y2nu7rdd62czjpq'
 };
 
