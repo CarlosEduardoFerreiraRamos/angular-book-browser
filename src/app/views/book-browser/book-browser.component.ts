@@ -21,7 +21,15 @@ export class BookBrowserComponent implements OnInit {
     this.fetchBookList();
   }
 
-  fetchBookList() {
+  onFilterChanges(values) {
+    console.log('values', values)
+  }
+
+  onSearch(sub) {
+    console.log('sub', sub)
+  }
+
+  private fetchBookList() {
     this._bookService.get().subscribe( res => {
       this.$bookList.next(res);
       console.log('res end', res);

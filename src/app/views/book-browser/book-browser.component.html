@@ -1,4 +1,27 @@
-<app-form></app-form>  
+<app-form (valueChanges)="onFilterChanges($event)" (formSubmit)="onSearch($event)">
+
+  <label>Supero</label>
+
+  <mat-form-field>
+    <input name="searchText" ngModel matInput placeholder="Input">
+  </mat-form-field>
+
+  <button mat-button type="submit">text</button>
+
+  <mat-divider></mat-divider>
+
+  <mat-form-field>
+    <input matInput name="pickerStart" [matDatepicker]="pickerStart" placeholder="Choose a date" ngModel>
+    <mat-datepicker-toggle matSuffix [for]="pickerStart"></mat-datepicker-toggle>
+    <mat-datepicker #pickerStart></mat-datepicker>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput name="pickerEnd" [matDatepicker]="pickerEnd" placeholder="Choose a date" ngModel>
+    <mat-datepicker-toggle matSuffix [for]="pickerEnd"></mat-datepicker-toggle>
+    <mat-datepicker #pickerEnd></mat-datepicker>
+  </mat-form-field>
+</app-form>  
 
 <app-data-table
   [dataSource]="$dataSource | async"

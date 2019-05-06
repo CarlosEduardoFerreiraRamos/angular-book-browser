@@ -7,11 +7,14 @@ import {
   MatDividerModule,
   MatButtonModule,
   MatNativeDateModule} from '@angular/material';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [FormComponent],
   imports: [
     CommonModule,
+    ReactiveFormsModule,
+    FormsModule,
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
