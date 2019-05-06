@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HTTP_INTERCEPTORS } from '../../../node_modules/@angular/common/http';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { MockBackEndInterceptorService } from './mock-back-end-interceptor.service';
 import { MockBackEndService } from './mock-back-end.service';
 

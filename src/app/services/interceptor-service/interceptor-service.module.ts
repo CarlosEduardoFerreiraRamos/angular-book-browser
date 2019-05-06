@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HTTP_INTERCEPTORS } from '../../../../node_modules/@angular/common/http';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppInterceptorService } from './app-interceptor.service';
 
 @NgModule({
