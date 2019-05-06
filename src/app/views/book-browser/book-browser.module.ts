@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { BookBrowserRoutingModule } from './book-browser-routing.module';
-import { DataTableModule } from 'src/app/components/data-table/data-table.module';
-import { FormModule } from 'src/app/components/form/form.module';
+import { DataTableModule } from './../../components/data-table/data-table.module';
+import { FormModule } from './../../components/form/form.module';
 import { BookBrowserComponent } from './book-browser.component';
 import { BooksServiceModule } from '../../services/books-service/books-service.module';
 import { MatInputModule, MatDatepickerModule, MatNativeDateModule, MatDividerModule, MatButtonModule } from '@angular/material';
