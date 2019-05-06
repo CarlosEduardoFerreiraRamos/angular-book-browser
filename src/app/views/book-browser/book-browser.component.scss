@@ -1,1 +1,23 @@
 @import './../../../styles.scss';
+
+label {
+    &.main-filter-label {
+        font-size: 44px
+    }
+}
+
+mat-form-field {
+    &.text-search-form-field {
+        line-height: 34px;
+    }
+}
+
+.table-count {
+    text-align: end;
+}
+
+button {
+    &.main-search-button {
+        padding: 4px 32px;
+    }
+}

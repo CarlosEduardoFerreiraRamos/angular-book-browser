@@ -8,6 +8,7 @@ import { BookBrowserComponent } from './book-browser.component';
 import { BooksServiceModule } from '../../services/books-service/books-service.module';
 import { MatInputModule, MatDatepickerModule, MatNativeDateModule, MatDividerModule, MatButtonModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [BookBrowserComponent],
@@ -20,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     MatNativeDateModule,
     DataTableModule,
     BooksServiceModule,
+    FlexLayoutModule,
     FormModule,
     FormsModule,
     MatDividerModule

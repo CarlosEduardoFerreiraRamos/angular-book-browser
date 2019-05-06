@@ -22,11 +22,11 @@ export class BookBrowserComponent implements OnInit {
   }
 
   onFilterChanges(values) {
-    console.log('values', values)
+    console.log('values', values);
   }
 
   onSearch(sub) {
-    console.log('sub', sub)
+    console.log('sub', sub);
   }
 
   private fetchBookList() {
